@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>pixPLace – AI Image Generator</title>
+  <meta name="description" content="pixPLace – Generate stunning images using neural networks. Try it now in Telegram.">
+  <meta name="keywords" content="AI image generator, Telegram WebApp, нейросеть, генератор изображений, искусственный интеллект, AI art, text to image, pixPLace">
+  <meta property="og:title" content="pixPLace – AI Image Generator" />
+  <meta property="og:description" content="Create art with AI in Telegram. Fast, futuristic and fun." />
+  <meta property="og:image" content="assets/img/preview.png" />
+  <meta property="og:type" content="website" />
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/lang.js" defer></script>
+  <!-- Telegram Pixel -->
+  <script async src="https://t.me/js/telegram-widget.js?7"></script>
+  <script>
+    window.tl = window.tl || function(){};
+    tl('init', { pixel_id: 'YOUR_PIXEL_ID' }); // <-- замените на свой ID
+  </script>
+</head>
+<body>
+  <header class="hero">
+    <h1 data-i18n="title">pixPLace</h1>
+    <p class="description" data-i18n="tagline">Create stunning images with AI inside Telegram</p>
+    <a href="https://t.me/YOUR_BOT?startapp" class="cta" data-i18n="open_in_tg">Open in Telegram</a>
+  </header>
+  <section class="gallery">
+    <img src="assets/img/sample1.jpg" alt="Generated image 1"/>
+    <img src="assets/img/sample2.jpg" alt="Generated image 2"/>
+    <img src="assets/img/sample3.jpg" alt="Generated image 3"/>
+  </section>
+  <footer>
+    <p>© 2025 pixPLace | <span data-i18n="all_rights">All rights reserved.</span></p>
+    <div class="language-switcher">
+      <select id="langSwitcher">
+        <option value="en">EN</option><option value="ru">RU</option><option value="es">ES</option>
+        <option value="fr">FR</option><option value="de">DE</option><option value="it">IT</option>
+        <option value="zh">中文</option><option value="ja">日本語</option><option value="ko">한국어</option>
+      </select>
+    </div>
+  </footer>
+</body>
+</html>

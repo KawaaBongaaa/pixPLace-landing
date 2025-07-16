@@ -1,0 +1,55 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom, #000010, #0f001f);
+  color: white;
+  text-align: center;
+}
+.hero {
+  padding: 5rem 2rem;
+  background: radial-gradient(circle at center, #1a1a2e, #000);
+}
+.hero h1 {
+  font-size: 3rem;
+  color: #00ffe1;
+  text-shadow: 0 0 10px #00ffe155;
+}
+.description {
+  font-size: 1.2rem;
+  color: #aaa;
+}
+.cta {
+  margin-top: 2rem;
+  display: inline-block;
+  padding: 1rem 2rem;
+  background: #00c6ff;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: background 0.3s ease;
+}
+.cta:hover {
+  background: #0072ff;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem;
+  gap: 1rem;
+}
+.gallery img {
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #00ffe1aa;
+}
+footer {
+  padding: 2rem;
+  font-size: 0.9rem;
+  color: #888;
+}
+.language-switcher {
+  margin-top: 1rem;
+}
